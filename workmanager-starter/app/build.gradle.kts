@@ -75,6 +75,9 @@ dependencies {
     implementation("androidx.compose.runtime:runtime")
     implementation("androidx.compose.runtime:runtime-livedata")
     implementation("androidx.compose.ui:ui")
+    //WorkManager  dependency
+    implementation("androidx.work:work-runtime-ktx:2.8.1")
+
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.core:core-ktx:1.12.0")
@@ -83,6 +86,7 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:${rootProject.extra["lifecycle_version"]}")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:${rootProject.extra["lifecycle_version"]}")
     implementation("androidx.work:work-runtime-ktx:2.8.1")
+    implementation("com.google.firebase:protolite-well-known-types:18.0.0")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
     debugImplementation("androidx.compose.ui:ui-tooling")
 }
